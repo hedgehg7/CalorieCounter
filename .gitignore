@@ -1,0 +1,18 @@
+*.iml
+# Gradle
+.gradle/
+build/
+
+# Local configuration
+local.properties
+.idea/
+
+# Android Studio
+*.iml
+*.hprof
+
+# Log files
+*.log
+
+# Others
+.DS_Store

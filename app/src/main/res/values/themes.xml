@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalorieCounter" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Тёмный цвет (статус-бар, верхняя панель) -->
+        <item name="colorPrimaryDark">@color/green</item>
+
+        <!-- Цвет фона окна -->
+        <item name="android:windowBackground">@color/greenBackground</item>
+
+        <!-- Цвет текста -->
+        <item name="android:textColor">@color/greenText</item>
+
+    </style>
+
+    <style name="Theme.CalorieCounter" parent="Base.Theme.CalorieCounter"
+        />
+</resources>
